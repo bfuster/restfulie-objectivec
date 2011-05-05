@@ -19,7 +19,7 @@
 	self = [super init];
 	if (self != nil) {
 		self.client = [Restfulie customWithTypes:[NSArray arrayWithObjects:[User class], nil] 
-				andCollectionNames:[NSArray arrayWithObjects:@"users", nil]];
+					andCollectionNames:[NSArray arrayWithObjects:@"users", nil]];
 	}
 	return self;
 }
