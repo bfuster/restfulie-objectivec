@@ -19,10 +19,8 @@ Sample.h
 #import "Restfulie.h"
 
 @interface Sample : NSObject {
-	
-	id<RestClient> client;
+  id<RestClient> client;
 }
-
 @property (nonatomic, assign) id<RestClient> client;
 @end
 </pre>
