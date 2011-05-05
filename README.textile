@@ -14,8 +14,10 @@ h2. External Libs
 
 h2. Current Usage (JSON only)
 
+[[client at:@"http://localhost/users"] get];
+[[client at:@"http://localhost/users"] post:user];
 
-
+"Sample":https://github.com/caelum/restfulie-objectivec/blob/master/Sample
 
 h2. Collaborate 
 
