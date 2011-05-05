@@ -17,7 +17,6 @@ h2. Current Usage (JSON only)
 Sample.h
 <pre>
 #import "Restfulie.h"
-
 @interface Sample : NSObject {
   id<RestClient> client;
 }
